@@ -30,14 +30,12 @@
 
 **UTP Cable (Copper)**
 
-- Max 100m
-
-| Speed    | Name                | IEE Standard |
-| -------- | ------------------- | ------------ |
-| 10 Mbps  | Ethernet            | 802.3i       |
-| 100 Mbps | Fast Ethernet       | 802.3u       |
-| 1 Gbps   | Gigabit Ethernet    | 802.3ab      |
-| 10 Gbps  | 10 Gigabit Ethernet | 802.3an      |
+| Speed    | Name                | IEEE Standard | name       | Max Length |
+| -------- | ------------------- | ------------- | ---------- | ---------- |
+| 10 Mbps  | Ethernet            | 802.3i        | 10BASE-T   | 100m       |
+| 100 Mbps | Fast Ethernet       | 802.3u        | 100BASE-T  | 100m       |
+| 1 Gbps   | Gigabit Ethernet    | 802.3ab       | 100-BASE-T | 100m       |
+| 10 Gbps  | 10 Gigabit Ethernet | 802.3an       | 10GBASE-T  | 100m       |
 
 - Cables are Unshielded Twisted Pairs
   - 8 wires (4 pairs). Only 4 used for 10&&100 Mbps (1&2, 3&6)
@@ -76,3 +74,10 @@
     - allows multiple modes/angles
     - shorter cables than single-mode (550m @ 1Gpbs, 400@10)
     - cheaper (LED transmitter)
+
+| Speed  | Name        | IEEE Standard | Type  | Length             |
+| ------ | ----------- | ------------- | ----- | ------------------ |
+| 1Gpbs  | 1000BASE-LX | 802.3z        | SM/MM | 550m (MM) 5km (SM) |
+| 10Gpbs | 10GBASE-SR  | 802.3ae       | MM    | 400m               |
+| 10Gpbs | 10GBASE-LR  | 802.3ae       | SM    | 10km               |
+| 10Gpbs | 10GBASE-ER  | 802.3ae       | SM    | 30km               |
